@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:FlightSimulator.Views"
         xmlns:Controls="clr-namespace:FlightSimulator.Views"
         mc:Ignorable="d"
-        d:DesignHeight="430" d:DesignWidth ="470">
+        d:DesignHeight="430" d:DesignWidth ="475">
     <Grid MinHeight="430" MinWidth="470">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
