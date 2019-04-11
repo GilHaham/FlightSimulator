@@ -8,23 +8,25 @@
         Title="Setting" Height="450" Width="400">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*" MinHeight="76.8"/>
+            <RowDefinition Height="*" MinHeight="63.2"/>
+            <RowDefinition Height="3*" MinHeight="36"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" MinWidth="211.2"/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <TextBlock Padding="3" Margin="3,3,2.2,3.2"> Flight Server Ip:</TextBlock>
         <TextBox x:Name="txtFlightServerIp" Grid.Column="1" Padding="3" Margin="6.8,3,2.6,3.2"></TextBox>
-        <TextBlock Grid.Row="1" Padding="3" Margin="3,2.8,2.2,3.4"> Flight Info Port:</TextBlock>
-        <TextBox x:Name="txtFlightInfoPort" Grid.Row="1" Grid.Column="1" Padding="3" Margin="6.8,2.8,2.6,3.4"></TextBox>
-        <TextBlock Grid.Row="2" Padding="3" Margin="3,2.6,2.2,2.8"> Flight Command Port:</TextBlock>
-        <TextBox x:Name="txtFlightCommandPort" Grid.Row="2" Grid.Column="1" Padding="3" Margin="6.8,2.6,2.6,2.8"></TextBox>
-        <Button x:Name="btnOK" Grid.Row="3" HorizontalAlignment="Center" Grid.ColumnSpan="1" Click="btnStart_Click" Margin="100,145.2,83.2,-135.6" Padding="5" Width="28">OK</Button>
-        <Button x:Name="btnCancel" Grid.Row="3" HorizontalAlignment="Center" Click="btnStart_Click" Margin="63.8,145.2,80.6,-135.6" Padding="5" Grid.Column="1" Width="50">Cancel</Button>
+        <TextBlock Grid.Row="1" Padding="3" Margin="3,2.8,2.2,3.8"> Flight Info Port:</TextBlock>
+        <TextBox x:Name="txtFlightInfoPort" Grid.Row="1" Grid.Column="1" Padding="3" Margin="6.8,2.8,2.6,3.8"></TextBox>
+        <TextBlock Grid.Row="2" Padding="3" Margin="3,2.2,2.2,31.6" Grid.RowSpan="2"> Flight Command Port:</TextBlock>
+        <TextBox x:Name="txtFlightCommandPort" Grid.Row="2" Grid.Column="1" Padding="3" Margin="6.8,2.2,2.6,31.6" Grid.RowSpan="2"></TextBox>
+        <Button Name="btnOK" Grid.Row="3" HorizontalAlignment="Center" Grid.ColumnSpan="1" Margin="72,42.6,80.2,127" Padding="5" Height="40" Width="59">OK</Button>
+        <Button Name="btnCancel" Grid.Row="3" HorizontalAlignment="Center" Margin="49.8,42.6,68.6,127" Padding="5" Height="40" RenderTransformOrigin="3.827,5.72" Grid.Column="1" Width="64">Cancel</Button>
+
+
     </Grid>
 
 

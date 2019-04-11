@@ -94,7 +94,7 @@
                     <TabItem.Header>
                         <StackPanel>
                             <TextBlock Margin="3" >Image and Text Tab Title</TextBlock>
-                            <Image Source="happyface.jpg" Stretch="None" />
+                         
                         </StackPanel>
                     </TabItem.Header>
                     <StackPanel Margin="3">

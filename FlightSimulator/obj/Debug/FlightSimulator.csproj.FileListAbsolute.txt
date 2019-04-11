@@ -74,3 +74,4 @@ C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj
 C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.pdb
 C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\Windows\Settings.g.cs
 C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\Windows\Settings.baml
