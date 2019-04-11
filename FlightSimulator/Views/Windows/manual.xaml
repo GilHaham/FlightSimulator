@@ -36,7 +36,7 @@
         <Slider  Grid.Row="2" Value="{Binding  ChangeTorttel}" Grid.Column="0" Name="LeftSl" Maximum="1" Minimum="0" Width="29" TickPlacement="TopLeft" TickFrequency="0.1" Orientation="Vertical"></Slider>
 
 
-        <Controls:Joystick  Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="2" Margin="9.8,5,12,4.6" ></Controls:Joystick>
+        <Controls:Joystick  Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="3" Margin="83,0,21.8,9.6" />
         <TextBlock Name="valThorttel" Grid.Row="1" Grid.Column="1" Text="{Binding ElementName=LeftSl , Path=Value,StringFormat=N2}" ></TextBlock>
 
 
