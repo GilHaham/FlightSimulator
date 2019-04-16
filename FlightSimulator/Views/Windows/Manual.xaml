@@ -27,7 +27,7 @@
         </Grid.RowDefinitions>
 
 
-        <TextBlock  Grid.Row="2" VerticalAlignment="Center"  Grid.Column="0" Text="← thorttel →"  FontSize="15">
+        <TextBlock  Grid.Row="2" VerticalAlignment="Center"  Grid.Column="0" Text="← thorttel →"  FontSize="16">
             <TextBlock.RenderTransform>
                 <RotateTransform Angle="-90"/>
             </TextBlock.RenderTransform>
