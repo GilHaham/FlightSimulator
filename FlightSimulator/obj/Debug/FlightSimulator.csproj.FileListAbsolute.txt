@@ -72,7 +72,6 @@ C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj
 C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csproj.CopyComplete
 C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.exe
 C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.pdb
-C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\Windows\Settings.g.cs
 C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csprojAssemblyReference.cache
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\Joystick.baml
@@ -95,3 +94,9 @@ C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\F
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.Properties.Resources.resources
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csproj.GenerateResource.cache
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csproj.CoreCompileInputs.cache
+C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\AutoPilot.g.cs
+C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\ConnectSettings.g.cs
+C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\AutoPilot.baml
+C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\ConnectSettings.baml
+C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\SettingsWindow.g.cs
+C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\SettingsWindow.baml
