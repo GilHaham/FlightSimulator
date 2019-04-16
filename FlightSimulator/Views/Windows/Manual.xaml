@@ -1,0 +1,60 @@
+﻿<Window x:Class="FlightSimulator.Views.Windows.Manual"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlightSimulator.Views.Windows"
+        xmlns:Controls="clr-namespace:FlightSimulator.Views"
+        mc:Ignorable="d"
+        Title="Manual" Height="455" Width="500">
+
+
+    <Grid MinHeight="420" MinWidth="470">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+
+        <TextBlock  Grid.Row="2" VerticalAlignment="Center"  Grid.Column="0" Text="← thorttel →"  FontSize="15">
+            <TextBlock.RenderTransform>
+                <RotateTransform Angle="-90"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+
+
+        <Slider  Grid.Row="2" Value="{Binding  ChangeTorttel}" Grid.Column="0" Name="LeftSl" Maximum="1" Minimum="0" Width="29" TickPlacement="TopLeft" TickFrequency="0.1" Orientation="Vertical"></Slider>
+
+
+        <Controls:Joystick  Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="3" Margin="83,0,21.8,9.6" />
+        <TextBlock Name="valThorttel" Grid.Row="1" Grid.Column="1" Text="{Binding ElementName=LeftSl , Path=Value,StringFormat=N2}" ></TextBlock>
+
+
+
+        <Slider Grid.Row="3" Grid.Column="2" Value="{Binding ChangeRudder}" Name="Rudder" Maximum="1" Minimum="-1" Height="25" TickPlacement="BottomRight" TickFrequency="0.2"/>
+        <TextBlock VerticalAlignment="Center" Text="← elevator →" Grid.Row="2" Grid.Column="4" FontSize="15">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="-90"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+        <TextBlock Text="← aileron →"  HorizontalAlignment="Center" Grid.Row="0" Grid.Column="2" FontSize="15"></TextBlock>
+        <TextBlock Name="RudderSlide" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Center" Text="← rudder →" FontSize="15"></TextBlock>
+        <TextBlock Name="valRudder" Grid.Row="3" Grid.Column="3" Text="{Binding ElementName=Rudder,Path=Value,StringFormat=N2}" ></TextBlock>
+
+
+
+    </Grid>
+</Window>
+
