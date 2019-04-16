@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         xmlns:views="clr-namespace:FlightSimulator.Views"
         
-        Title="MainWindow" Height="550" Width="1000">
+        Title="NOTHING" Height="550" Width="1000">
     <Grid>
 
 
