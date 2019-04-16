@@ -11,6 +11,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Runtime.CompilerServices;
+using System.ComponentModel;
+using FlightSimulator.Views.Windows;
 
 namespace FlightSimulator
 {
@@ -22,7 +25,9 @@ namespace FlightSimulator
         public MainWindow()
         {
             InitializeComponent();
-            //this.DataContext = new 
+
+            
+          
         }
     }
 }

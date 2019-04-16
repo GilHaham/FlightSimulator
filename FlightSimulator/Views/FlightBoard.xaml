@@ -20,18 +20,15 @@
         </Grid.Resources>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="365*"/>
-            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TextBlock Style="{StaticResource LabelStyle}" LayoutTransform="{StaticResource rotate}" VerticalAlignment="Center" Margin="7,194,6,194.2">Lon</TextBlock>
-        <d3:ChartPlotter Grid.Row="0" Grid.Column="1" LegendVisible="False" Name="plotter" Grid.ColumnSpan="2" Margin="0,0,0,0.2">
+        <TextBlock Style="{StaticResource LabelStyle}" LayoutTransform="{StaticResource rotate}" VerticalAlignment="Center">Lon</TextBlock>
+        <d3:ChartPlotter Grid.Row="0" Grid.Column="1" LegendVisible="False" Name="plotter">
         </d3:ChartPlotter>
-        <TextBlock Grid.Row="1" Style="{StaticResource LabelStyle}" HorizontalAlignment="Center" Grid.Column="1" Margin="338,3.8,363.358,3.6">Lat</TextBlock>
-        <Button Grid.Row="0 " Margin="0,0,0,0.2">Connect</Button>
+        <TextBlock Grid.Row="1" Grid.ColumnSpan="2" Style="{StaticResource LabelStyle}" HorizontalAlignment="Center">Lat</TextBlock>
     </Grid>
 </UserControl>
