@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:FlightSimulator.Views.Windows"
         xmlns:Controls="clr-namespace:FlightSimulator.Views"
         mc:Ignorable="d"
-        Title="Manual" Height="455" Width="500">
+        Title="Manual" Height="450" Width="500">
 
 
     <Grid MinHeight="420" MinWidth="470">
