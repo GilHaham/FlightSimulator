@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\App.xaml
-5-1633974297
+51513678977
 
-18851319948
+18-40973163
 16619677678
-MainWindow.xaml;Views\FlightBoard.xaml;Views\Joystick.xaml;Views\Windows\MyFlightBoard.xaml;Views\Windows\Settings.xaml;
+MainWindow.xaml;Views\FlightBoard.xaml;Views\Joystick.xaml;Views\Window1.xaml;Views\Windows\Settings.xaml;
 
-False
+True
 
