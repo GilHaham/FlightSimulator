@@ -12,17 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace FlightSimulator
+namespace FlightSimulator.Views.Windows
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MyFlightBoard.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MyFlightBoard : Window
     {
-        public MainWindow()
+        public MyFlightBoard()
         {
             InitializeComponent();
-            //this.DataContext = new 
         }
     }
 }

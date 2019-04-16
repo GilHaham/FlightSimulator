@@ -23,5 +23,10 @@ namespace FlightSimulator.Views.Windows
         {
             InitializeComponent();
         }
+
+        private void TxtFlightCommandPort_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
