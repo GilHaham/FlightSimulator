@@ -1,9 +1,9 @@
-﻿<UserControl x:Class="FlightSimulator.Views.AutoPilot"
+﻿<UserControl x:Class="FlightSimulator.Views.Windows.autoPilot"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:FlightSimulator.Views"
+        xmlns:local="clr-namespace:FlightSimulator.Views.Windows"
         xmlns:locals="clr-namespace:FlightSimulator.ViewModels"    
         mc:Ignorable="d"
              d:DesignHeight="430" d:DesignWidth ="470">

@@ -83,8 +83,8 @@
     <Compile Include="Views\Windows\autoPilot.xaml.cs">
       <DependentUpon>autoPilot.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Windows\manual.xaml.cs">
-      <DependentUpon>manual.xaml</DependentUpon>
+    <Compile Include="Views\Windows\Manual.xaml.cs">
+      <DependentUpon>Manual.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Windows\Settings.xaml.cs">
       <DependentUpon>Settings.xaml</DependentUpon>
@@ -105,7 +105,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Windows\manual.xaml">
+    <Page Include="Views\Windows\Manual.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

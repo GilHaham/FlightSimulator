@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace FlightSimulator.Views.Windows
 {
     /// <summary>
-    /// Interaction logic for manual.xaml
+    /// Interaction logic for Manual.xaml
     /// </summary>
-    public partial class manual : Window
+    public partial class Manual : Window
     {
-        public manual()
+        public Manual()
         {
             InitializeComponent();
         }
