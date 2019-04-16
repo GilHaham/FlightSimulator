@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:FlightSimulator.Views.Windows"
         xmlns:Controls="clr-namespace:FlightSimulator.Views"
         mc:Ignorable="d"
-        Title="Manual" Height="451" Width="501">
+        Title="Manual" Height="450" Width="500">
 
 
     <Grid MinHeight="420" MinWidth="470">
@@ -27,7 +27,7 @@
         </Grid.RowDefinitions>
 
 
-        <TextBlock  Grid.Row="2" VerticalAlignment="Center"  Grid.Column="0" Text="← thorttel →"  FontSize="15">
+        <TextBlock  Grid.Row="2" VerticalAlignment="Center"  Grid.Column="0" Text="← thorttel →"  FontSize="14">
             <TextBlock.RenderTransform>
                 <RotateTransform Angle="-90"/>
             </TextBlock.RenderTransform>
