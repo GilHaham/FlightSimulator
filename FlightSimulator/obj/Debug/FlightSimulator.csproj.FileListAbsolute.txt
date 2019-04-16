@@ -78,9 +78,6 @@ C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\V
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\MainWindow.g.cs
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\FlightBoard.g.cs
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\Joystick.g.cs
-C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\Windows\autoPilot.g.cs
-C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\Windows\manual.g.cs
-C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\Windows\Settings.g.cs
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\App.g.cs
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator_MarkupCompile.cache
@@ -89,7 +86,6 @@ C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\F
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.pdb
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\MainWindow.baml
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\FlightBoard.baml
-C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\Windows\Settings.baml
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.g.resources
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.Properties.Resources.resources
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csproj.GenerateResource.cache
@@ -100,3 +96,17 @@ C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj
 C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\ConnectSettings.baml
 C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\SettingsWindow.g.cs
 C:\Users\גיל חכם\source\repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\SettingsWindow.baml
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.exe.config
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.exe
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.pdb
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\bin\Debug\DynamicDataDisplay.dll
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\bin\Debug\DynamicDataDisplay.xml
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\AutoPilot.g.cs
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\ConnectSettings.g.cs
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\SettingsWindow.g.cs
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\AutoPilot.baml
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\ConnectSettings.baml
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\SettingsWindow.baml
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csproj.CopyComplete
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\Manual.g.cs
+C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\Manual.baml

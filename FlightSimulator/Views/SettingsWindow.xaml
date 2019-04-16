@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FlightSimulator.Views"
         mc:Ignorable="d"
-        Title="SettingsWindow" Height="450" Width="800">
+        Title="SettingsWindow" Height="420" Width="700">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -22,9 +22,9 @@
         <TextBlock Grid.Row="1" Padding="3" Margin="3,2.8,2.2,3.8"> Flight Info Port:</TextBlock>
         <TextBox x:Name="txtFlightInfoPort" Grid.Row="1" Grid.Column="1" Padding="3" Margin="6.8,2.8,2.6,3.8"></TextBox>
         <TextBlock Grid.Row="2" Padding="3" Margin="3,2.2,2.2,31.6" Grid.RowSpan="2"> Flight Command Port:</TextBlock>
-        <TextBox x:Name="txtFlightCommandPort" Grid.Row="2" Grid.Column="1" Padding="3" Margin="6.8,2.2,2.6,31.6" Grid.RowSpan="2"></TextBox>
-        <Button Name="btnOK" Grid.Row="3" HorizontalAlignment="Center" Grid.ColumnSpan="1" Margin="72,42.6,80.2,127" Padding="5" Height="40" Width="59">OK</Button>
-        <Button Name="btnCancel" Grid.Row="3" HorizontalAlignment="Center" Margin="49.8,42.6,68.6,127" Padding="5" Height="40" RenderTransformOrigin="3.827,5.72" Grid.Column="1" Width="64">Cancel</Button>
+        <TextBox x:Name="txtFlightCommandPort" Grid.Row="2" Grid.Column="1" Padding="3" Margin="6.8,1.9,2.6,0.3" TextChanged="TxtFlightCommandPort_TextChanged"/>
+    <Button Name="btnOK" Grid.Row="3" HorizontalAlignment="Center" Grid.ColumnSpan="1" Margin="69,59.1,83.2,96.1" Padding="5" Height="40" Width="59">OK</Button>
+        <Button Name="btnCancel" Grid.Row="3" HorizontalAlignment="Center" Margin="189.8,59.1,228.6,96.1" Padding="5" Height="40" RenderTransformOrigin="3.827,5.72" Grid.Column="1" Width="64">Cancel</Button>
 
     </Grid>
 </Window>

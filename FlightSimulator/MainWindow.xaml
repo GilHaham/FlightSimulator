@@ -31,7 +31,7 @@
         <Viewbox Grid.Column="1" Grid.Row="0" Margin="0.2,0,-0.4,9.8" Grid.RowSpan="4">
             <TabControl Height="550" Width="517">
                 <TabItem Header="Manual">
-                    <view:Joystick ></view:Joystick>
+                    <view:Manual ></view:Manual>
                 </TabItem>
                 <TabItem Header="Auto Pilot">
                     <view:AutoPilot></view:AutoPilot>

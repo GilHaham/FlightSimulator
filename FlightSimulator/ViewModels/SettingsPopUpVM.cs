@@ -13,7 +13,7 @@ namespace FlightSimulator.ViewModels
     {
         #region SettingsClickCommand
         private ICommand _settingsClickCommand;
-        public ICommand SettingsPopUpVM1
+        public ICommand SettingsClick
         {
             get
             {
