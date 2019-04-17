@@ -57,6 +57,12 @@
             </TextBlock.LayoutTransform>
         </TextBlock>
 
+       <Viewbox Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" Grid.ColumnSpan="2">
+
+            <local:Joystick x:Name="joystick"
+                            Aileron="{Binding Aileron, Mode=OneWayToSource}"
+                            Elevator="{Binding Elevator, Mode=OneWayToSource}"></local:Joystick>
+        </Viewbox>
 
         <Viewbox Grid.Row="0" Grid.Column="2">
             <TextBlock Text="←aileron→" />
@@ -78,12 +84,7 @@
                 </TextBlock.LayoutTransform>
             </TextBlock>
         </Viewbox>
-        <Viewbox Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" Grid.ColumnSpan="2">
-
-            <local:Joystick x:Name="joystick"
-                            Aileron="{Binding Aileron, Mode=OneWayToSource}"
-                            Elevator="{Binding Elevator, Mode=OneWayToSource}"></local:Joystick>
-        </Viewbox>
+       
         <Viewbox Grid.Row="2" Grid.Column="1">
             <Slider x:Name="throttleSlider" Value="{Binding Throttle}" Minimum="0">
                 <Slider.LayoutTransform>

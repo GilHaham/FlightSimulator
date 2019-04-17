@@ -16,5 +16,5 @@ C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\App.xaml
 16-1220047599
 MainWindow.xaml;Views\AutoPilot.xaml;Views\ConnectSettings.xaml;Views\FlightBoard.xaml;Views\Joystick.xaml;Views\Manual.xaml;Views\SettingsWindow.xaml;
 
-True
+False
 
