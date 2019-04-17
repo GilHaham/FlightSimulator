@@ -26,7 +26,7 @@
         <Grid.Resources>
             <Style TargetType="TextBlock">
 
-                <Setter Property="FontSize" Value="20" />
+                <Setter Property="FontSize" Value="18" />
                 <Setter Property="TextAlignment" Value="Center" />
 
             </Style>
@@ -40,18 +40,18 @@
             </Style>
         </Grid.Resources>
 
+        <TextBlock Text="{Binding Throttle ,StringFormat=0.#}" Grid.Row="1" Grid.Column="1" FontSize="11"  />      
+
         <TextBlock Text="{Binding ElementName=joystick, Path=Aileron, StringFormat=0.0#}" 
-                       Grid.Row="0" Grid.Column="3" FontSize="12"/>
+                       Grid.Row="0" Grid.Column="3" FontSize="11"/>
 
+      
 
-        <TextBlock Text="{Binding Throttle ,StringFormat=0.#}" Grid.Row="1" Grid.Column="1" FontSize="12"  />
-
-
-        <TextBlock Text="{Binding Rudder,StringFormat=0.#}"  Grid.Row="3" Grid.Column="3" FontSize="12"/>
+        <TextBlock Text="{Binding Rudder,StringFormat=0.#}"  Grid.Row="3" Grid.Column="3" FontSize="11"/>
 
 
         <TextBlock Text="{Binding ElementName=joystick, Path=Elevator, StringFormat=0.0#}"
-                       FontSize="12" Grid.Row="1" Grid.Column="4">
+                       FontSize="11" Grid.Row="1" Grid.Column="4">
             <TextBlock.LayoutTransform>
                 <RotateTransform Angle="+90"/>
             </TextBlock.LayoutTransform>
