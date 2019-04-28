@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\
 FlightSimulator
 none
 false
 DEBUG;TRACE
-C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\App.xaml
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\App.xaml
 7778485610
 
-211485571993
-16-1220047599
+241911457934
+16-776081481
 MainWindow.xaml;Views\AutoPilot.xaml;Views\ConnectSettings.xaml;Views\FlightBoard.xaml;Views\Joystick.xaml;Views\Manual.xaml;Views\SettingsWindow.xaml;
 
 True

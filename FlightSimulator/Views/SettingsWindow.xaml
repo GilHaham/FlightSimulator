@@ -18,11 +18,11 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <TextBlock Padding="3" Margin="3,3,2.2,3.2"> Flight Server Ip:</TextBlock>
-        <TextBox x:Name="txtFlightServerIp" Grid.Column="1" Padding="3" Margin="6.8,3,2.6,3.2"></TextBox>
+        <TextBox x:Name="txtFlightServerIp" Grid.Column="1" Padding="3" Margin="6.8,3,2.6,3.2" Text="{Binding FlightServerIP}"></TextBox>
         <TextBlock Grid.Row="1" Padding="3" Margin="3,2.8,2.2,3.8"> Flight Info Port:</TextBlock>
-        <TextBox x:Name="txtFlightInfoPort" Grid.Row="1" Grid.Column="1" Padding="3" Margin="6.8,2.8,2.6,3.8"></TextBox>
+        <TextBox x:Name="txtFlightInfoPort" Grid.Row="1" Grid.Column="1" Padding="3" Margin="6.8,2.8,2.6,3.8" Text="{Binding FlightInfoPort}"></TextBox>
         <TextBlock Grid.Row="2" Padding="3" Margin="3,2.2,2.2,31.6" Grid.RowSpan="2"> Flight Command Port:</TextBlock>
-        <TextBox x:Name="txtFlightCommandPort" Grid.Row="2" Grid.Column="1" Padding="3" Margin="6.8,1.9,2.6,0.3" TextChanged="TxtFlightCommandPort_TextChanged"/>
+        <TextBox x:Name="txtFlightCommandPort" Grid.Row="2" Grid.Column="1" Padding="3" Margin="6.8,1.9,2.6,0.3" Text="{Binding FlightCommandPort}" TextChanged="TxtFlightCommandPort_TextChanged"/>
     <Button Name="btnOK" Grid.Row="3" HorizontalAlignment="Center" Grid.ColumnSpan="1" Margin="69,59.1,83.2,96.1" Padding="5" Height="40" Width="59">OK</Button>
         <Button Name="btnCancel" Grid.Row="3" HorizontalAlignment="Center" Margin="189.8,59.1,228.6,96.1" Padding="5" Height="40" RenderTransformOrigin="3.827,5.72" Grid.Column="1" Width="64">Cancel</Button>
 

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\FlightSimulator",
+    "\\FlightSimulator\\Views"
   ],
-  "SelectedNode": "\\FlightSimulator.sln",
+  "SelectedNode": "\\FlightSimulator\\Views\\AutoPilot.xaml",
   "PreviewInSolutionExplorer": false
 }

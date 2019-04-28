@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FlightSimulator.Model;
+using FlightSimulator.ViewModels.Windows;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +24,8 @@ namespace FlightSimulator.Views
         public SettingsWindow()
         {
             InitializeComponent();
+            this.DataContext = new SettingsWindowViewModel(ApplicationSettingsModel.Instance);
+
         }
 
         private void TxtFlightCommandPort_TextChanged(object sender, TextChangedEventArgs e)

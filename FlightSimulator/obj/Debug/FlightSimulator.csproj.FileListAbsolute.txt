@@ -110,3 +110,65 @@ C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\V
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csproj.CopyComplete
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\Manual.g.cs
 C:\Users\meirc\Source\Repos\GilHaham\FlightSimulator\FlightSimulator\obj\Debug\Views\Manual.baml
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.exe.config
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.exe
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.pdb
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\bin\Debug\DynamicDataDisplay.dll
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\bin\Debug\DynamicDataDisplay.xml
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csprojAssemblyReference.cache
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\Joystick.baml
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\MainWindow.g.cs
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\AutoPilot.g.cs
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\ConnectSettings.g.cs
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\FlightBoard.g.cs
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\Joystick.g.cs
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\Manual.g.cs
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\SettingsWindow.g.cs
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\App.g.cs
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator_MarkupCompile.cache
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator_MarkupCompile.lref
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\MainWindow.baml
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\AutoPilot.baml
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\ConnectSettings.baml
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\FlightBoard.baml
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\Manual.baml
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\SettingsWindow.baml
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.g.resources
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.Properties.Resources.resources
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csproj.GenerateResource.cache
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csproj.CoreCompileInputs.cache
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csproj.CopyComplete
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.exe
+C:\Users\גיל חכם\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.pdb
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.exe.config
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.exe
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.pdb
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\bin\Debug\DynamicDataDisplay.dll
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\bin\Debug\DynamicDataDisplay.xml
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csprojAssemblyReference.cache
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\Joystick.baml
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\MainWindow.g.cs
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\AutoPilot.g.cs
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\ConnectSettings.g.cs
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\FlightBoard.g.cs
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\Joystick.g.cs
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\Manual.g.cs
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\SettingsWindow.g.cs
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\App.g.cs
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator_MarkupCompile.cache
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator_MarkupCompile.lref
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\MainWindow.baml
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\AutoPilot.baml
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\ConnectSettings.baml
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\FlightBoard.baml
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\Manual.baml
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\Views\SettingsWindow.baml
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.g.resources
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.Properties.Resources.resources
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csproj.GenerateResource.cache
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csproj.CopyComplete
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.exe
+C:\Users\Gil_Haham\source\repos\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.pdb

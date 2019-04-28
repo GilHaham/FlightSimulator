@@ -23,24 +23,5 @@ namespace FlightSimulator.ViewModels
             get;
         }
 
-        //#region SettingsClickCommand
-        //private ICommand _settingsClickCommand;
-        //public ICommand _SettingsClickCommand
-        //{
-        //    get
-        //    {
-        //        return _settingsClickCommand ?? (_settingsClickCommand = new CommandHandler(() => OnClick()));
-        //    }
-        //}
-        //private void OnClick()
-        //{
-        //    var settingsClick = new SettingsWindow();
-        //    settingsClick.Show();
-        //}
-        //#endregion
-
-
-
-
     }
 }

@@ -29,16 +29,6 @@ namespace FlightSimulator.ViewModels.Windows
             }
         }
 
-        public int FlightCommandPort
-        {
-            get { return model.FlightCommandPort; }
-            set
-            {
-                model.FlightCommandPort = value;
-                NotifyPropertyChanged("FlightCommandPort");
-            }
-        }
-
         public int FlightInfoPort
         {
             get { return model.FlightInfoPort; }
@@ -46,6 +36,16 @@ namespace FlightSimulator.ViewModels.Windows
             {
                 model.FlightInfoPort = value;
                 NotifyPropertyChanged("FlightInfoPort");
+            }
+        }
+
+        public int FlightCommandPort
+        {
+            get { return model.FlightCommandPort; }
+            set
+            {
+                model.FlightCommandPort = value;
+                NotifyPropertyChanged("FlightCommandPort");
             }
         }
 

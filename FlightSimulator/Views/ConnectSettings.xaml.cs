@@ -26,7 +26,12 @@ namespace FlightSimulator.Views
         {
             InitializeComponent();
 
-            this.DataContext = new SettingsPopUpVM();
+            this.DataContext = new ConnectSettingsVM();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
