@@ -10,21 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using FlightSimulator.ViewModels;
 
-namespace FlightSimulator.Views
+namespace FlightSimulator.Views.Windows
 {
     /// <summary>
-    /// Interaction logic for AutoPilot.xaml
+    /// Interaction logic for Setting.xaml
     /// </summary>
-    public partial class AutoPilot : UserControl
+    public partial class Setting : Window
     {
-        public AutoPilot()
+        public Setting()
         {
             InitializeComponent();
-            DataContext = new AutoPilotVM(); 
         }
     }
 }

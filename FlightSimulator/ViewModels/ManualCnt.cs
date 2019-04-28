@@ -3,22 +3,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FlightSimulator.Model;
 
 namespace FlightSimulator.ViewModels
 {
-    class ManualCnt
+    class ManualCnt : BaseNotify
     {
-
-       
+        public CommandClient commandSend = CommandClient.Instance;
+    
         private double throttle = 0;
+        private double aileron = 0;
+        private double rudder = 0;
+        private double elevator = 0;
 
         public double Throttle
         {
             set
             {
                 throttle = value;
-                //TO-DO!!!
-                //call the server model to send the valeu of the throttle to the simolator
+                string send = "set controls/engines/current-engine/throttle " + value + "\r\n"; 
+                CommandClient.Instance.openThread(send);
+
+                NotifyPropertyChanged("Throttle");
+
             }
             get
             {
@@ -26,16 +33,16 @@ namespace FlightSimulator.ViewModels
 
             }
         }
-
-        private double aileron = 0;
-
         public double Aileron
         {
             set
             {
                 aileron = value;
-                //TO-DO!!!
-                //call the server model to send the valeu of the aileron to the simolator
+                string send = "set controls/flight/aileron " + value + "\r\n"; 
+                CommandClient.Instance.openThread(send);
+
+              NotifyPropertyChanged("Aileron");
+
             }
             get
             {
@@ -44,28 +51,32 @@ namespace FlightSimulator.ViewModels
             }
         }
 
-        private double rudder = 0;
         public double Rudder
         {
             set
             {
                 rudder = value;
-                //TO-DO!!!
-                //call the server model to send the valeu of the rudder to the simolator
+
+                string send = "set controls/flight/rudder " + value + "\r\n"; 
+                CommandClient.Instance.openThread(send);
+               
+               NotifyPropertyChanged("Rudder");
             }
             get
             { return rudder; }
         }
-
-        private double elevator = 0;
 
         public double Elevator
         {
             set
             {
                 elevator = value;
-                //TO-DO!!!
-                //call the server model to send the valeu of the elevator to the simolator
+                
+                string send = "set controls/flight/elevator " + value + "\r\n"; 
+                CommandClient.Instance.openThread(send);
+   
+                NotifyPropertyChanged("Elevator");
+
             }
             get
             {
@@ -73,8 +84,5 @@ namespace FlightSimulator.ViewModels
 
             }
         }
-
-
     }
 }
-

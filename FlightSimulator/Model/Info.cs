@@ -18,7 +18,6 @@ namespace FlightSimulator.Model
         double lon;
         double lat;
         Thread threadInfo;
-        //FlightBoardViewModel vm = new FlightBoardViewModel();
 
         public double Lon
         {
@@ -61,14 +60,11 @@ namespace FlightSimulator.Model
 
         public Info()
         {
-            //lon = 0.0f;
-            //lat = 0.0f;
             shouldContinue = true;
         }
 
         public void connect()
         {
-
             IPEndPoint ep = new IPEndPoint(IPAddress.Parse(ApplicationSettingsModel.Instance.FlightServerIP),
                 ApplicationSettingsModel.Instance.FlightInfoPort);
             TcpListener listener = new TcpListener(ep);
@@ -89,7 +85,6 @@ namespace FlightSimulator.Model
         {
             Byte[] bytes;
             string[] splitMsg = new string[25];
-
             NetworkStream ns = _client.GetStream();
 
             while (shouldContinue)
@@ -98,10 +93,10 @@ namespace FlightSimulator.Model
                 {
                     bytes = new byte[_client.ReceiveBufferSize];
                     ns.Read(bytes, 0, _client.ReceiveBufferSize);
-                    string msg = Encoding.ASCII.GetString(bytes); //the message incoming
+                    string msg = Encoding.ASCII.GetString(bytes);
                     splitMsg = msg.Split(',');
-                    Lon = float.Parse(splitMsg[0]);
-                    Lat = float.Parse(splitMsg[1]);
+                    FlightBoardViewModel.Instance.Lon = float.Parse(splitMsg[0]);
+                    FlightBoardViewModel.Instance.Lat = float.Parse(splitMsg[1]);
                     Console.WriteLine(msg);
 
                 }
@@ -109,7 +104,5 @@ namespace FlightSimulator.Model
             ns.Close();
             _client.Close();
         }
-
-
     }
 }

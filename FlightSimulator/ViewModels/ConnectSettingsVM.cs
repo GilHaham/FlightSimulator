@@ -39,12 +39,12 @@ namespace FlightSimulator.ViewModels
         }
         private void OnClickConnect()
         {
-            if (CommandS.Instance.getIsConnected())
+            if (CommandClient.Instance.getIsConnected())
             {
                 new Thread(() =>
                 {
-                    CommandS.Instance.closeThread();
-                    CommandS.Instance.connect();
+                //    CommandClient.Instance.closeThread();
+                    CommandClient.Instance.connect();
                 }).Start();
 
             }
@@ -53,7 +53,7 @@ namespace FlightSimulator.ViewModels
                 new Thread(() =>
                 {
                     Info.Instance.connect();
-                    CommandS.Instance.connect();
+                    CommandClient.Instance.connect();
                 }).Start();
             }
         }

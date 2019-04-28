@@ -10,26 +10,26 @@ using System.IO;
 
 namespace FlightSimulator.Model
 {
-    class CommandS
+    class CommandClient
     {
         bool isConnnect = false;
         TcpClient tcpClient;
         Thread threadCommand;
-        private static CommandS m_Instance = null;
+        private static CommandClient m_Instance = null;
 
-        public static CommandS Instance
+        public static CommandClient Instance
         {
             get
             {
                 if (m_Instance == null)
                 {
-                    m_Instance = new CommandS();
+                    m_Instance = new CommandClient();
                 }
                 return m_Instance;
             }
         }
 
-        public CommandS()
+        public CommandClient()
         {
             //connect();
         }
@@ -58,7 +58,6 @@ namespace FlightSimulator.Model
             NetworkStream ns = tcpClient.GetStream();
             {
 
-                //string[] buffer =;
                 foreach (string s in split)
                 {
                     // Send data to server
@@ -83,7 +82,6 @@ namespace FlightSimulator.Model
             tcpClient.Connect(ep);
             isConnnect = true;
             Console.WriteLine("You are connected");
-            // tcpClient.Close();
         }
 
         private string[] Parse(string line)
@@ -98,4 +96,6 @@ namespace FlightSimulator.Model
             return isConnnect;
         }
     }
-}
+    }
+
+    

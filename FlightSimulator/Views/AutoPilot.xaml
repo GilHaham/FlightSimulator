@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:FlightSimulator.Views"
              mc:Ignorable="d" d:DesignWidth="800" Height="466.8">
-    <Grid Height="500" Width="500">
+    <!--<Grid Height="500" Width="500">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
@@ -25,5 +25,39 @@
         <Button  Name="ClearButton" Content="Clear" Height="20" Width="50"  Margin="5" HorizontalAlignment="Left" VerticalAlignment="Center" 
                  FontWeight="DemiBold" Grid.Row="1" Grid.Column="1" Command="{Binding ClearCommand}"/>
 
-    </Grid>
+    </Grid>-->
+
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <TextBox  Width="Auto" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Background="{Binding BackgroundColor,UpdateSourceTrigger=PropertyChanged}"
+             Text="{Binding Content, UpdateSourceTrigger=PropertyChanged}"/>
+
+    <Button x:Name = "button1"
+        Content = "OK"
+        Height="25"
+        HorizontalAlignment = "Center"
+        Grid.Column="0"
+        Margin="50"
+        Grid.Row="1"
+            Command="{Binding OkCommand}"
+                />
+
+    <Button x:Name = "button2"
+        Height="25"
+        Content = "Clear"
+        Grid.Column="1"
+        Grid.Row="1"
+        HorizontalAlignment = "Center"
+        Command="{Binding ClearCommand}"
+                />
+  </Grid>
+  
+  
 </UserControl>
